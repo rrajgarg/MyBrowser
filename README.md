@@ -9,8 +9,8 @@ A browser with following features:
 7. delete options in history to delete a particular history 
 8. check the work of all the tabs at one place
 Upcoming Features:
-9. Social connectivity
-10. set your default top sites
-11. pdf reader
-12. downloading options
-13. set your Background
+1. Social connectivity
+2. set your default top sites
+3. pdf reader
+4. downloading options
+5. set your Background
