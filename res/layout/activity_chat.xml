@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myweb.Chat">
+<RelativeLayout
+    android:id="@+id/rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/lin"></android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:weightSum="10"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:minHeight="50dp"
+            android:id="@+id/chats"/>
+        <Button
+            android:layout_width="0dp"
+            android:background="@drawable/ic_menu_send"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:id="@+id/sends"/>
+    </LinearLayout>
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

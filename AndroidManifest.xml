@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.myweb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Begin"
+            android:label="@string/title_activity_begin"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".History" />
+        <activity android:name=".News" />
+        <activity
+            android:name=".NewTab.NewTab1"
+            android:label="@string/title_activity_new_tab1"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NewTab.NewTab2"
+            android:label="@string/title_activity_new_tab2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrivateTab.PrivateTab1"
+            android:label="@string/title_activity_private_tab1"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrivateTab.PrivateTab2"
+            android:label="@string/title_activity_private_tab2"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".BookMarks" />
+        <activity android:name=".Connect" />
+        <activity android:name=".Chat" />
+        <activity android:name=".Setting" />
+        <activity android:name=".PrivateTab.General" />
+        <activity android:name=".Share" />
+        <activity android:name=".AllTabs" />
+        <activity android:name=".SearchEngine"></activity>
+    </application>
+
+</manifest>

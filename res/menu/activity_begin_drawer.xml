@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh" />
+    <item
+        android:id="@+id/new_tab"
+        android:title="New Tab" />
+    <item
+        android:id="@+id/new_private_tab"
+        android:title="New Private Tab" />
+    <item
+        android:id="@+id/bookmarks"
+        android:title="Bookmarks" />
+    <item
+        android:id="@+id/history"
+        android:title="History" />
+    <item
+        android:id="@+id/connect"
+        android:title="Connect" />
+    <item
+        android:id="@+id/request_desktop_site"
+        android:title="Request Desktop Site" />
+    <item
+        android:id="@+id/add_ons"
+        android:title="Add-ons" />
+    <item
+        android:id="@+id/share"
+        android:title="Share" />
+    <item
+        android:id="@+id/tools"
+        android:title="Tools" />
+    <item
+        android:id="@+id/settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/help"
+        android:title="Help" />
+</menu>
